@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>New Tab App</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/primitive-ui/dist/css/main.css" />
+  </head>
+  <body>
+    <div class="small-container">
+      <h1>Master Agility Points</h1>
+
+      <h2>Standard Scores</h2><br>
+      <ul id="stdUl"></ul>
+
+      <form id="stdForm"> 
+        <input id="stdscore" type="text" placeholder="Enter Points and Press Return" required />
+      </form> <br>
+      <button id="stdButton">Clear All</button><br>
+      
+      <h2>Jumpers Scores</h2>
+      <ul id="jwwUl"></ul>
+
+      <form id="jwwForm">
+        <input id="jwwscore" type="text" placeholder="Enter Points and Press Return" required />
+      </form><br>
+      <button id="jwwButton">Clear All</button> 
+      </div>
+      
+    <script src="stdStorage.js"></script>
+    <script src="jwwStorage.js"></script>
+  </body>
+</html>
